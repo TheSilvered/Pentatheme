@@ -1,0 +1,21 @@
+{
+  "name": "tetratheme",
+  "displayName": "Tetratheme",
+  "description": "Minimal color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tetratheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tetratheme-color-theme.json"
+      }
+    ]
+  }
+}

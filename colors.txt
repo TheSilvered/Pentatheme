@@ -1,12 +1,13 @@
-#151515 background
-#212121 panel borders
+#151515 Background
+#212121 Panel borders
 
 #202020 Input background
 #303030 Input borders
 
-#f0f0f0 UI foreground
+#d0d0d0 Foreground
+#f0f0f0 Light foreground
 #747474 UI muted foreground
 
-#0164af accent
-#0d62c4 accent light
-#0164af90 selections (accent transparent)
+#0164af Accent
+#0d62c4 Accent light
+#0164af90 Selections (accent transparent)

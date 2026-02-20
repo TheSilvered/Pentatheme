@@ -1,21 +1,21 @@
 {
-  "name": "icosatheme",
-  "displayName": "Icosatheme",
-  "description": "Minimal color theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.109.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Icosatheme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/theme.json"
-      }
-    ]
-  }
+    "name": "minitheme",
+    "displayName": "Mini theme",
+    "description": "Minimal color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.109.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mini theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/theme.json"
+            }
+        ]
+    }
 }

@@ -56,7 +56,7 @@
         "widget.border": "#212121",
         "widget.shadow": "#00000030",
         "icon.foreground": "#f0f0f0",
-        
+
         // ==================
         // Editor
         // ==================
@@ -83,8 +83,28 @@
         "editorOverviewRuler.border": "#010409",
         "editorWidget.background": "#151515",
 
+        // ==================
+        // Tabs
+        // ==================
+
+        "tab.activeBackground": "#151515",
+        "tab.activeBorder": "#0164af",
+        "tab.activeBorderTop": "#151515",
+        "tab.activeForeground": "#f0f0f0",
+        "tab.selectedBackground": "#212121",
+        "tab.selectedBorderTop": "#000",
+        "tab.selectedForeground": "#f0f0f0",
+        "tab.border": "#151515",
+        "tab.hoverBackground": "#151515",
+        "tab.inactiveBackground": "#151515",
+        "tab.inactiveForeground": "#747474",
+        "tab.lastPinnedBorder": "#151515",
+        "tab.unfocusedActiveBorder": "#151515",
+        "tab.unfocusedActiveBorderTop": "#212121",
+        "tab.unfocusedHoverBackground": "#151515",
+
         // TODO
-        
+
         "inputOption.activeBackground": "#0164af",
         "inputOption.activeBorder": "#2488db",
         "keybindingLabel.foreground": "#d0d0d0",
@@ -139,21 +159,6 @@
         "statusBarItem.prominentBackground": "#6e768166",
         "statusBarItem.remoteBackground": "#0164af",
         "statusBarItem.remoteForeground": "#ffffff",
-        "tab.activeBackground": "#151515",
-        "tab.activeBorder": "#151515",
-        "tab.activeBorderTop": "#0164af",
-        "tab.activeForeground": "#ffffff",
-        "tab.selectedBackground": "#151515",
-        "tab.selectedBorderTop": "#6caddf",
-        "tab.selectedForeground": "#ffffffa0",
-        "tab.border": "#212121",
-        "tab.hoverBackground": "#151515",
-        "tab.inactiveBackground": "#151515",
-        "tab.inactiveForeground": "#9d9d9d",
-        "tab.lastPinnedBorder": "#cccccc33",
-        "tab.unfocusedActiveBorder": "#151515",
-        "tab.unfocusedActiveBorderTop": "#212121",
-        "tab.unfocusedHoverBackground": "#151515",
         "terminal.foreground": "#d0d0d0",
         "terminal.inactiveSelectionBackground": "#3a3d41",
         "terminal.tab.activeBorder": "#0164af",

@@ -3,6 +3,19 @@
     "name": "Icosatheme",
     "colors": {
         // ==================
+        // Text
+        // ==================
+
+        "textBlockQuote.background": "#212121",
+        "textBlockQuote.border": "#303030",
+        "textCodeBlock.background": "#212121",
+        "textLink.activeForeground": "#4ba8f0",
+        "textLink.foreground": "#4ba8f0",
+        "textPreformat.foreground": "#f0f0f0",
+        "textPreformat.background": "#151515",
+        "textSeparator.foreground": "#212121",
+
+        // ==================
         // Input
         // ==================
 
@@ -10,21 +23,21 @@
         "button.background": "#00489b",
         "button.foreground": "#f0f0f0",
         "button.hoverBackground": "#0d62c4",
-        "button.secondaryBackground": "#202020",
+        "button.secondaryBackground": "#212121",
         "button.secondaryForeground": "#f0f0f0",
         "button.secondaryHoverBackground": "#414141",
 
-        "dropdown.background": "#202020",
+        "dropdown.background": "#212121",
         "dropdown.border": "#0000",
         "dropdown.foreground": "#f0f0f0",
-        "dropdown.listBackground": "#202020",
+        "dropdown.listBackground": "#212121",
 
-        "input.background": "#202020",
+        "input.background": "#212121",
         "input.border": "#303030",
         "input.foreground": "#f0f0f0",
         "input.placeholderForeground": "#747474",
 
-        "checkbox.background": "#202020",
+        "checkbox.background": "#212121",
         "checkbox.border": "#303030",
 
         // ==================
@@ -162,14 +175,6 @@
         "terminal.foreground": "#d0d0d0",
         "terminal.inactiveSelectionBackground": "#3a3d41",
         "terminal.tab.activeBorder": "#0164af",
-        "textBlockQuote.background": "#212121",
-        "textBlockQuote.border": "#616161",
-        "textCodeBlock.background": "#212121",
-        "textLink.activeForeground": "#4daafc",
-        "textLink.foreground": "#4daafc",
-        "textPreformat.foreground": "#d0d0d0",
-        "textPreformat.background": "#3c3c3c",
-        "textSeparator.foreground": "#21262d",
         "titleBar.activeBackground": "#151515",
         "titleBar.activeForeground": "#d0d0d0",
         "titleBar.border": "#212121",
@@ -185,13 +190,19 @@
     },
     "tokenColors": [
         {
-            "scope": "emphasis",
+            "scope": [
+                "emphasis",
+                "markup.italic"
+            ],
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
-            "scope": "strong",
+            "scope": [
+                "strong",
+                "markup.bold"
+            ],
             "settings": {
                 "fontStyle": "bold"
             }
@@ -205,13 +216,13 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#8db879"
+                "foreground": "#7bb361"
             }
         },
         {
             "scope": "constant",
             "settings": {
-                "foreground": "#d8a038"
+                "foreground": "#e6a328"
             }
         },
         {
@@ -220,7 +231,7 @@
                 "storage"
             ],
             "settings": {
-                "foreground": "#3c8cca"
+                "foreground": "#4ba8f0"
             }
         }
     ]

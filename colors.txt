@@ -1,7 +1,7 @@
 #151515 Background
 #212121 Panel borders
 
-#202020 Input background
+#212121 Input background
 #303030 Input borders
 
 #d0d0d0 Foreground
@@ -11,3 +11,7 @@
 #0164af Accent
 #0d62c4 Accent light
 #0164af90 Selections (accent transparent)
+
+#4ba8f0 Blue
+#e6a328 Orange
+#7bb361 Green

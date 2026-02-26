@@ -1,6 +1,6 @@
 # Change Log
 
-## TBD
+## 0.0.260226
 
 - Made keywords more legible
 - Made colors more vibrant

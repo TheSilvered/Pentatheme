@@ -15,3 +15,4 @@
 #4ba8f0 Blue
 #e6a328 Orange
 #7bb361 Green
+#f85149 Red

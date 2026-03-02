@@ -79,21 +79,21 @@
         "editor.findMatchBackground": "#0164af", // selected match
         "editor.findMatchHighlightBackground": "#0164af90", // other matches
 
-        "editor.selectionBackground": "#0164af90",
-        "editor.inactiveSelectionBackground": "#0164af60",
-        "editor.selectionHighlightBackground": "#0164af60",
+        "editor.selectionBackground": "#0164afb0",
+        "editor.inactiveSelectionBackground": "#0164af50",
+        "editor.selectionHighlightBackground": "#0164af50",
 
         "editorGroup.border": "#212121",
         "editorGroupHeader.tabsBackground": "#151515",
         "editorGroupHeader.tabsBorder": "#151515",
-        "editorGutter.addedBackground": "#2ea043",
+        "editorGutter.addedBackground": "#7bb361",
         "editorGutter.deletedBackground": "#f85149",
-        "editorGutter.modifiedBackground": "#0164af",
+        "editorGutter.modifiedBackground": "#4ba8f0",
         "editorIndentGuide.background1": "#404040",
         "editorIndentGuide.activeBackground1": "#707070",
         "editorLineNumber.activeForeground": "#d0d0d0",
-        "editorLineNumber.foreground": "#6e7681",
-        "editorOverviewRuler.border": "#010409",
+        "editorLineNumber.foreground": "#747474",
+        "editorOverviewRuler.border": "#212121",
         "editorWidget.background": "#151515",
 
         // ==================

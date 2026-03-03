@@ -1,5 +1,14 @@
 # Change Log
 
+## TBD
+
+- Fixed inconsistent colors in the editor
+  - Changed 'added' and 'modified' colors to be the already existing colors
+  - Changed the background of tab drop areas
+  - Changed the color of code folding
+- Made selection more visible
+- Reduced the intensity of word highlighting
+
 ## 0.0.260226
 
 - Made keywords more legible

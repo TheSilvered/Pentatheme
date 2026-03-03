@@ -39,6 +39,24 @@
 
         "checkbox.background": "#212121",
         "checkbox.border": "#303030",
+        "checkbox.foreground": "#f0f0f0",
+        "checkbox.disabled.background": "#151515",
+        "checkbox.disabled.foreground": "#747474",
+
+        // Maybe TODO: radio buttons
+
+        // ==================
+        // Settings
+        // ==================
+
+        "settings.rowHoverBackground": "#151515",
+        "settings.focusedRowBackground": "#151515",
+        "settings.focusedRowBorder": "#0000",
+        "settings.dropdownBackground": "#212121",
+        "settings.dropdownListBorder": "#303030",
+        "settings.dropdownBorder": "#303030",
+        "settings.headerForeground": "#f0f0f0",
+        "settings.modifiedItemIndicator": "#e6a328",
 
         // ==================
         // Workbench
@@ -55,6 +73,8 @@
         "badge.foreground": "#f0f0f0",
 
         "debugToolBar.background": "#151515",
+        "toolbar.hoverBackground": "#303030",
+        "toolbar.activeBackground": "#303030",
 
         // ==================
         // Base colors
@@ -93,7 +113,7 @@
         "editorGroup.dropBackground": "#0164afb0",
         "editorGutter.addedBackground": "#7bb361",
         "editorGutter.deletedBackground": "#f85149",
-        "editorGutter.modifiedBackground": "#4ba8f0",
+        "editorGutter.modifiedBackground": "#e6a328",
         "editorIndentGuide.background1": "#404040",
         "editorIndentGuide.activeBackground1": "#707070",
         "editorLineNumber.activeForeground": "#d0d0d0",
@@ -153,10 +173,6 @@
         "progressBar.background": "#0164af",
         "quickInput.background": "#151515",
         "quickInput.foreground": "#d0d0d0",
-        "settings.dropdownBackground": "#313131",
-        "settings.dropdownBorder": "#3c3c3c",
-        "settings.headerForeground": "#ffffff",
-        "settings.modifiedItemIndicator": "#bb800966",
         "sideBar.background": "#151515",
         "sideBar.border": "#212121",
         "sideBar.foreground": "#d0d0d0",

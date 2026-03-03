@@ -4,8 +4,8 @@
 #212121 Input background
 #303030 Input borders
 
-#d0d0d0 Foreground
-#f0f0f0 Light foreground
+#d0d0d0 Editor foreground
+#f0f0f0 Workbench foreground
 #747474 UI muted foreground
 
 #0164af Accent

@@ -8,6 +8,7 @@
   - Changed the color of code folding
 - Made selection more visible
 - Reduced the intensity of word highlighting
+- Improved settings page
 
 ## 0.0.260226
 

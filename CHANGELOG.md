@@ -9,6 +9,8 @@
 - Made selection more visible
 - Reduced the intensity of word highlighting
 - Improved settings page
+- Changed scrollbar colors
+- Changed file tree and git decoration colors
 
 ## 0.0.260226
 

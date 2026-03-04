@@ -6,6 +6,7 @@
 
 #cbcbcb Editor foreground
 #d0d0d0 Workbench foreground
+#f0f0f0 Light foreground
 #747474 UI muted foreground
 
 #0164af Accent
@@ -13,6 +14,7 @@
 #0164af90 Selections (accent transparent)
 
 #4ba8f0 Blue
+#f1d77f Yellow
 #e6a328 Orange
 #7bb361 Green
-#f85149 Red
+#f36e67 Red

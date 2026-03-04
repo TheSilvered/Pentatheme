@@ -2,7 +2,7 @@
     "name": "pentatheme",
     "displayName": "Pentatheme",
     "description": "Minimal color theme with only five colors.",
-    "version": "0.0.260226",
+    "version": "0.0.260304",
     "publisher": "taffarelloda",
     "engines": {
         "vscode": "^1.109.0"

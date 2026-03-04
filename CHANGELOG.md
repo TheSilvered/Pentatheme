@@ -1,6 +1,6 @@
 # Change Log
 
-## TBD
+## 0.0.260304
 
 - Fixed inconsistent colors in the editor
   - Changed 'added' and 'modified' colors to be the already existing colors

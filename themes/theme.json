@@ -173,6 +173,29 @@
         "tab.unfocusedActiveBorderTop": "#212121",
         "tab.unfocusedHoverBackground": "#151515",
 
+        // ==================
+        // Terminal
+        // ==================
+
+        "terminal.tab.activeBorder": "#0164af",
+        "terminal.foreground": "#cbcbcb",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBrightBlack": "#747474",
+        "terminal.ansiWhite": "#d0d0d0",
+        "terminal.ansiBrightWhite": "#f0f0f0",
+        "terminal.ansiRed": "#cf251c",
+        "terminal.ansiBrightRed": "#f36e67",
+        "terminal.ansiGreen": "#57943b",
+        "terminal.ansiBrightGreen": "#7bb361",
+        "terminal.ansiBlue": "#0164af",
+        "terminal.ansiBrightBlue": "#4ba8f0",
+        "terminal.ansiYellow": "#e6a328",
+        "terminal.ansiBrightYellow": "#f1d77f",
+        "terminal.ansiCyan": "#16a99d",
+        "terminal.ansiBrightCyan": "#4edace",
+        "terminal.ansiMagenta": "#a01ee1",
+        "terminal.ansiBrightMagenta": "#c070e8",
+
         // TODO
 
         "inputOption.activeBackground": "#0164af",
@@ -223,9 +246,6 @@
         "statusBarItem.prominentBackground": "#6e768166",
         "statusBarItem.remoteBackground": "#0164af",
         "statusBarItem.remoteForeground": "#ffffff",
-        "terminal.foreground": "#d0d0d0",
-        "terminal.inactiveSelectionBackground": "#3a3d41",
-        "terminal.tab.activeBorder": "#0164af",
         "titleBar.activeBackground": "#151515",
         "titleBar.activeForeground": "#d0d0d0",
         "titleBar.border": "#212121",

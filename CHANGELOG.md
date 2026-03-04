@@ -11,6 +11,7 @@
 - Improved settings page
 - Changed scrollbar colors
 - Changed file tree and git decoration colors
+- Changed the colors of the terminal
 
 ## 0.0.260226
 

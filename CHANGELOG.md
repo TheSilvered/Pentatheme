@@ -1,5 +1,11 @@
 # Change Log
 
+## TBD
+
+- Fixed inconsistent button color
+- Changed key binds page colors
+- Some small fixes
+
 ## 0.0.260304
 
 - Fixed inconsistent colors in the editor

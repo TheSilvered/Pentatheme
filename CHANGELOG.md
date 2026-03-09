@@ -4,7 +4,7 @@
 
 - Fixed inconsistent button color
 - Changed key binds page colors
-- Some other small fixes
+- Some other small fixes for the workbench
 
 ## 0.0.260304
 

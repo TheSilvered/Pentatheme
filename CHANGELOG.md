@@ -4,6 +4,7 @@
 
 - Fixed inconsistent button color
 - Changed key binds page colors
+- Changed diff editor backgrounds
 - Some other small fixes for the workbench
 
 ## 0.0.260304

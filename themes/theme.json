@@ -94,6 +94,15 @@
         "menu.selectionForeground": "#f0f0f0",
         "menu.separatorBackground": "#212121",
 
+        "notificationCenterHeader.background": "#151515",
+        "notificationCenterHeader.foreground": "#d0d0d0",
+        "notifications.background": "#151515",
+        "notifications.border": "#212121",
+        "notifications.foreground": "#d0d0d0",
+        "notificationsInfoIcon.foreground": "#4ba8f0",
+        "notificationsWarningIcon.foreground": "#e6a328",
+        "notificationsErrorIcon.foreground": "#f36e67",
+
         "scrollbar.background": "#0000",
         "scrollbar.shadow": "#00000080",
         "scrollbarSlider.background": "#74747440",
@@ -231,11 +240,6 @@
 
         // TODO
 
-        "notificationCenterHeader.background": "#151515",
-        "notificationCenterHeader.foreground": "#d0d0d0",
-        "notifications.background": "#151515",
-        "notifications.border": "#212121",
-        "notifications.foreground": "#d0d0d0",
         "panel.background": "#151515",
         "panel.border": "#212121",
         "panelInput.border": "#212121",

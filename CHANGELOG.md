@@ -5,6 +5,8 @@
 - Fixed inconsistent button color
 - Changed key binds page colors
 - Changed diff editor backgrounds
+- Changed colors for peek view
+- Changed colors for chat
 - Some other small fixes for the workbench
 
 ## 0.0.260304

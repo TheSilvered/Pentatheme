@@ -71,6 +71,7 @@
         // Workbench
         // ==================
 
+        "actionBar.toggledBackground": "#303030",
         "activityBar.activeBorder": "#0000",
         "activityBar.background": "#151515",
         "activityBar.border": "#212121",
@@ -102,6 +103,11 @@
         "notificationsInfoIcon.foreground": "#4ba8f0",
         "notificationsWarningIcon.foreground": "#e6a328",
         "notificationsErrorIcon.foreground": "#f36e67",
+
+        "pickerGroup.border": "#303030",
+
+        "quickInput.background": "#151515",
+        "quickInput.foreground": "#d0d0d0",
 
         "scrollbar.background": "#0000",
         "scrollbar.shadow": "#00000080",
@@ -192,8 +198,9 @@
         "editor.placeholder.foreground": "#747474",
         "editor.foldPlaceholderForeground": "#747474",
         "editor.foldBackground": "#74747420",
-        "editor.findMatchBackground": "#0164af", // selected match
+        "editor.findMatchBackground": "#0164af90", // selected match
         "editor.findMatchHighlightBackground": "#0164af90", // other matches
+        "editor.findMatchBorder": "#4ba8f0",
 
         "editor.selectionBackground": "#0164afb0",
         "editor.inactiveSelectionBackground": "#0164af50",
@@ -279,21 +286,28 @@
 
         "ports.iconRunningProcessForeground": "#57943b",
 
-        // TODO
+        // ==================
+        // Peek view
+        // ==================
 
-        "peekViewEditor.background": "#151515",
-        "peekViewEditor.matchHighlightBackground": "#bb800966",
+        "peekViewEditor.background": "#1c1c1c",
+        "peekViewEditor.matchHighlightBackground": "#0164af90",
+        "peekViewEditor.matchHighlightBorder": "#0164af",
         "peekViewResult.background": "#151515",
-        "peekViewResult.matchHighlightBackground": "#bb800966",
-        "pickerGroup.border": "#3c3c3c",
-        "progressBar.background": "#0164af",
-        "quickInput.background": "#151515",
-        "quickInput.foreground": "#d0d0d0",
+        "peekViewResult.matchHighlightBackground": "#0164af90",
+        "peekViewResult.fileForeground": "#d0d0d0",
+        "peekViewResult.selectionBackground": "#0164afb0",
+        "peekViewResult.lineForeground": "#d0d0d0",
+        "peekViewResult.selectionForeground": "#f0f0f0",
+        "peekView.border": "#212121",
 
-        "actionBar.toggledBackground": "#383a49",
-        "chat.slashCommandBackground": "#26477866",
-        "chat.slashCommandForeground": "#85b6ff",
-        "chat.editedFileForeground": "#e2c08d",
+        // ==================
+        // Chat
+        // ==================
+
+        "chat.slashCommandForeground": "#4ba8f0",
+        "chat.slashCommandBackground": "#0164af90",
+        "chat.editedFileForeground": "#f1d77f",
     },
     "tokenColors": [
         {

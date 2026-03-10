@@ -128,6 +128,14 @@
         "statusBarItem.prominentBackground": "#0000",
         "statusBarItem.remoteBackground": "#0164af",
         "statusBarItem.remoteForeground": "#f0f0f0",
+        "statusBar.background": "#151515",
+        "statusBar.border": "#212121",
+
+        "titleBar.activeBackground": "#151515",
+        "titleBar.activeForeground": "#d0d0d0",
+        "titleBar.border": "#212121",
+        "titleBar.inactiveBackground": "#151515",
+        "titleBar.inactiveForeground": "#747474",
 
         "welcomePage.tileBackground": "#212121",
         "welcomePage.progress.foreground": "#0164af",
@@ -257,30 +265,30 @@
         "terminal.ansiMagenta": "#a01ee1",
         "terminal.ansiBrightMagenta": "#c070e8",
 
-        // TODO
+        // ==================
+        // Panels
+        // ==================
 
         "panel.background": "#151515",
         "panel.border": "#212121",
-        "panelInput.border": "#212121",
+        "panelInput.border": "#303030",
+        "panelTitle.border": "#212121",
         "panelTitle.activeBorder": "#0164af",
         "panelTitle.activeForeground": "#d0d0d0",
-        "panelTitle.inactiveForeground": "#9d9d9d",
+        "panelTitle.inactiveForeground": "#747474",
+
+        "ports.iconRunningProcessForeground": "#57943b",
+
+        // TODO
+
         "peekViewEditor.background": "#151515",
         "peekViewEditor.matchHighlightBackground": "#bb800966",
         "peekViewResult.background": "#151515",
         "peekViewResult.matchHighlightBackground": "#bb800966",
         "pickerGroup.border": "#3c3c3c",
-        "ports.iconRunningProcessForeground": "#369432",
         "progressBar.background": "#0164af",
         "quickInput.background": "#151515",
         "quickInput.foreground": "#d0d0d0",
-        "statusBar.background": "#151515",
-        "statusBar.border": "#212121",
-        "titleBar.activeBackground": "#151515",
-        "titleBar.activeForeground": "#d0d0d0",
-        "titleBar.border": "#212121",
-        "titleBar.inactiveBackground": "#151515",
-        "titleBar.inactiveForeground": "#9d9d9d",
 
         "actionBar.toggledBackground": "#383a49",
         "chat.slashCommandBackground": "#26477866",

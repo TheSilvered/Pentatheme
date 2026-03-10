@@ -4,6 +4,7 @@
     "description": "Minimal color theme with only five colors.",
     "version": "1.0.260310",
     "publisher": "taffarelloda",
+    "icon": "icon/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/TheSilvered/Pentatheme.git"

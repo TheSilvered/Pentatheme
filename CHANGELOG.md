@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.1.260310
+
+- Stable release
+
 ## 1.0.260310
 
 - Fixed inconsistent button color

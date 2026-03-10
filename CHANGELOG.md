@@ -1,6 +1,6 @@
 # Change Log
 
-## TBD
+## 1.0.260310
 
 - Fixed inconsistent button color
 - Changed key binds page colors

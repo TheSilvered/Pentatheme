@@ -10,8 +10,8 @@ Minimal color theme with only five colors for code:
 
 ## Pentatheme dark
 
-![https://raw.githubusercontent.com/TheSilvered/Pentatheme/refs/heads/master/media/preview_dark.png]
+![Dark theme](https://raw.githubusercontent.com/TheSilvered/Pentatheme/refs/heads/master/media/preview_dark.png)
 
 ## Pentatheme light
 
-![https://raw.githubusercontent.com/TheSilvered/Pentatheme/refs/heads/master/media/preview_light.png]
+![Light theme](https://raw.githubusercontent.com/TheSilvered/Pentatheme/refs/heads/master/media/preview_light.png)

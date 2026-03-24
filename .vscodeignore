@@ -1,5 +1,6 @@
 .vscode/**
-.vscode-test/**
 .gitignore
-icon/icon.svg
-colors.txt
+media/icon.svg
+media/preview_dark.png
+media/preview_light.png
+themes/generate.py

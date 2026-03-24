@@ -1,5 +1,10 @@
 # Change Log
 
+## TBD
+
+- Added light variant
+- Small fixes for various inconsistent colors
+
 ## 1.1.260310
 
 - Stable release

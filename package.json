@@ -18,9 +18,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Pentatheme",
+                "label": "Pentatheme Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/theme.json"
+                "path": "./themes/theme-dark.json"
+            },
+            {
+                "label": "Pentatheme Light",
+                "uiTheme": "vs",
+                "path": "./themes/theme-light.json"
             }
         ]
     }

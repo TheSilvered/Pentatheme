@@ -1,6 +1,6 @@
 # Change Log
 
-## TBD
+## 2.0.260324
 
 - Added light variant
 - Small fixes for various inconsistent colors

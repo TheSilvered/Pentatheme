@@ -41,8 +41,12 @@ class Theme:
 
         self.hidden = "#0000"
 
+        self.sel_alpha = colors["sel_alpha"]
+        self.light_sel_alpha = colors["light_sel_alpha"]
+        self.bg_sel_alpha = colors["bg_sel_alpha"]
+
     def dump(self, file):
-        json.dump({
+        theme = {
             "$schema": "vscode://schemas/color-theme",
             "name": self.name,
             "colors": {
@@ -197,12 +201,12 @@ class Theme:
                 # Lists
                 # ==================
 
-                "list.dropBackground": self.accent + "b0",
-                "list.activeSelectionBackground": self.accent + "40",
-                "list.hoverBackground": self.input_border,
+                "list.dropBackground": self.accent + self.sel_alpha,
+                "list.activeSelectionBackground": self.accent + self.bg_sel_alpha,
+                "list.hoverBackground": self.border,
                 "list.activeSelectionForeground": self.workbench_fg,
-                "list.inactiveFocusBackground": self.input_border,
-                "list.inactiveSelectionBackground": self.input_border,
+                "list.inactiveFocusBackground": self.border,
+                "list.inactiveSelectionBackground": self.border,
                 "list.warningForeground": self.orange,
                 "list.errorForeground": self.light_red,
                 "list.deemphasizedForeground": self.muted_fg,
@@ -228,7 +232,7 @@ class Theme:
                 "disabledForeground": self.muted_fg,
                 "descriptionForeground": self.workbench_fg,
                 "errorForeground": self.light_red,
-                "selection.background": self.accent + "90",
+                "selection.background": self.accent + self.sel_alpha,
                 "widget.border": self.border,
                 "widget.shadow": self.black + "30",
                 "icon.foreground": self.workbench_fg,
@@ -242,19 +246,25 @@ class Theme:
                 "editor.placeholder.foreground": self.muted_fg,
                 "editor.foldPlaceholderForeground": self.muted_fg,
                 "editor.foldBackground": self.muted_fg + "20",
-                "editor.findMatchBackground": self.accent + "90", # selected match
-                "editor.findMatchHighlightBackground": self.accent + "90", # other matches
+                "editor.findMatchBackground": self.accent + self.light_sel_alpha, # selected match
+                "editor.findMatchHighlightBackground": self.accent + self.light_sel_alpha, # other matches
                 "editor.findMatchBorder": self.light_blue,
+                "editor.rangeHighlightBackground": self.hidden,
 
-                "editor.selectionBackground": self.accent + "b0",
-                "editor.inactiveSelectionBackground": self.accent + "50",
-                "editor.selectionHighlightBackground": self.accent + "50",
-                "editor.wordHighlightBackground": self.muted_fg + "40",
+                "editor.selectionBackground": self.accent + self.sel_alpha,
+                "editor.inactiveSelectionBackground": self.accent + self.light_sel_alpha,
+                "editor.selectionHighlightBackground": self.accent + self.light_sel_alpha,
+                "editor.wordHighlightBackground": self.muted_fg + self.bg_sel_alpha,
+                "editor.wordHighlightStrongBackground": self.accent + self.bg_sel_alpha,
+
+                "editor.inlineValuesBackground": self.accent + self.light_sel_alpha,
+                "editor.inlineValuesForeground": self.workbench_fg,
+                "editor.stackFrameHighlightBackground": self.accent + self.light_sel_alpha,
 
                 "editorGroup.border": self.border,
                 "editorGroupHeader.tabsBackground": self.background,
                 "editorGroupHeader.tabsBorder": self.background,
-                "editorGroup.dropBackground": self.accent + "b0",
+                "editorGroup.dropBackground": self.accent + self.sel_alpha,
                 "editorGutter.addedBackground": self.light_green,
                 "editorGutter.deletedBackground": self.light_red,
                 "editorGutter.modifiedBackground": self.yellow,
@@ -268,10 +278,10 @@ class Theme:
 
                 "diffEditor.border": self.border,
                 "diffEditor.diagonalFill": self.input_border,
-                "diffEditor.insertedLineBackground": self.dark_green + "40",
-                "diffEditor.insertedTextBackground": self.dark_green + "60",
-                "diffEditor.removedLineBackground": self.dark_red + "40",
-                "diffEditor.removedTextBackground": self.dark_red + "60",
+                "diffEditor.insertedLineBackground": self.dark_green + self.bg_sel_alpha,
+                "diffEditor.insertedTextBackground": self.dark_green + self.light_sel_alpha,
+                "diffEditor.removedLineBackground": self.dark_red + self.bg_sel_alpha,
+                "diffEditor.removedTextBackground": self.dark_red + self.light_sel_alpha,
 
                 # ==================
                 # Tabs
@@ -335,12 +345,12 @@ class Theme:
                 # ==================
 
                 "peekViewEditor.background": self.row_background,
-                "peekViewEditor.matchHighlightBackground": self.accent + "90",
+                "peekViewEditor.matchHighlightBackground": self.accent + self.light_sel_alpha,
                 "peekViewEditor.matchHighlightBorder": self.accent,
                 "peekViewResult.background": self.background,
-                "peekViewResult.matchHighlightBackground": self.accent + "90",
+                "peekViewResult.matchHighlightBackground": self.accent + self.light_sel_alpha,
                 "peekViewResult.fileForeground": self.workbench_fg,
-                "peekViewResult.selectionBackground": self.accent + "b0",
+                "peekViewResult.selectionBackground": self.accent + self.sel_alpha,
                 "peekViewResult.lineForeground": self.workbench_fg,
                 "peekViewResult.selectionForeground": self.light_fg,
                 "peekView.border": self.border,
@@ -350,7 +360,7 @@ class Theme:
                 # ==================
 
                 "chat.slashCommandForeground": self.light_blue,
-                "chat.slashCommandBackground": self.accent + "90",
+                "chat.slashCommandBackground": self.accent + self.light_sel_alpha,
                 "chat.editedFileForeground": self.yellow,
             },
             "tokenColors": [
@@ -400,7 +410,8 @@ class Theme:
                     }
                 }
             ]
-        }, file, indent=4)
+        }
+        json.dump(theme, file, indent=4)
 
 
 dark_colors = {
@@ -433,14 +444,18 @@ dark_colors = {
 
     "keywords": "light_blue",
     "constants": "orange",
-    "strings": "light_green"
+    "strings": "light_green",
+
+    "sel_alpha": "b0",
+    "light_sel_alpha": "50",
+    "bg_sel_alpha": "40"
 }
 
 light_colors = {
     "background": "#f6f6f6",
     "row_background": "#efefef",
     "border": "#ececec",
-    "input_border": "#cbcbcb",
+    "input_border": "#d0d0d0",
     "workbench_fg": "#151515",
     "editor_fg": "#353535",
     "muted_fg": "#999999",
@@ -466,7 +481,11 @@ light_colors = {
 
     "keywords": "light_blue",
     "constants": "yellow",
-    "strings": "light_green"
+    "strings": "light_green",
+
+    "sel_alpha": "50",
+    "light_sel_alpha": "30",
+    "bg_sel_alpha": "28"
 }
 
 theme_dark = Theme("Pentatheme Dark", dark_colors)

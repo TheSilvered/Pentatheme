@@ -1,6 +1,6 @@
 # Change Log
 
-## TBD
+## 2.0.260325
 
 - Greately improved readability in various scenarios in the light variant
 - Changed the colors of some debugging elements

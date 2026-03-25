@@ -1,12 +1,12 @@
 # Pentatheme
 
-Minimal color theme with only five colors for code:
+A minimal color theme with only five main colors for code:
 
-- blue for keywords,
-- orange for constants,
-- green for strings,
-- gray for comments,
-- and white for everything else.
+1. blue for keywords,
+2. orange for constants,
+3. green for strings,
+4. gray for comments,
+5. and white for everything else.
 
 ## Pentatheme dark
 

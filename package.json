@@ -1,8 +1,8 @@
 {
     "name": "pentatheme",
     "displayName": "Pentatheme",
-    "description": "Minimal color theme with only five colors.",
-    "version": "2.0.260324",
+    "description": "A minimal color theme with only five main colors.",
+    "version": "2.0.260325",
     "publisher": "taffarelloda",
     "icon": "media/icon.png",
     "repository": {
